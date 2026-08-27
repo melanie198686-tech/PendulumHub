@@ -75,6 +75,10 @@ do -- UI
 		ScriptsTab:NewButton("Killbot V2", "DONT CLICK ANY KEYBINDS.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/killbotv2.lua"))()
 		end)
+
+		ScriptsTab:NewButton("Krystal dance", "Yippieee dancing in da CLUB.", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Krystal%20dance.lua"))()
+		end)
 		ScriptsTab:NewSearchBar()
 	end
 
