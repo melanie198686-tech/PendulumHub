@@ -170,7 +170,11 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 		
 		cwScriptsTab:NewButton('Neko V3', 'v4 but no naked (but a better catgirl)', function()
 			loadstring(game:HttpGet('https://github.com/a65407112-boop/Neko-Script/blob/main/MelanieNeko.rbxm'))()	
-		end)		
+		end)	
+
+		cwScriptsTab:NewButton('Road Rogue', 'vroom vroom', function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Roadrogue.lua'))()	
+		end)	
 		cwScriptsTab:NewSearchBar()
 	end
 	
