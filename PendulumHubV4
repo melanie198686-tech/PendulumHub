@@ -67,6 +67,14 @@ do -- UI
 		ScriptsTab:NewButton("FE Chill", "Just a chill dude.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/chill/refs/heads/main/Chill.lua"))()
 		end)
+
+		ScriptsTab:NewButton("Sexy Staff Girl", "WITCHHHH.", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Sexy%20staff%20girl.lua"))()
+		end)
+
+		ScriptsTab:NewButton("Killbot V2", "Just a chill dude.", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/killbotv2.lua"))()
+		end)
 		ScriptsTab:NewSearchBar()
 	end
 
