@@ -67,10 +67,6 @@ do -- UI
 		ScriptsTab:NewButton("FE Chill", "Just a chill dude.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/chill/refs/heads/main/Chill.lua"))()
 		end)
-
-		ScriptsTab:NewButton("Server Admin", "Muahah Yes u need hats for this", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/Serveradmin/refs/heads/main/ServerAdmin.lua"))()
-		end)
 		
 		ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the discord.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/34oqvdH"))()
@@ -292,32 +288,12 @@ do -- UI
 			loadstring(game:HttpGetAsync("https://bit.ly/3tB2UPK"))()
 		end)
 
-		ScriptsTab:NewButton("Cop", "Your average cop.", function()
-			loadstring(game:HttpGet("https://pastefy.app/RDV0hCiu/raw"))()
-		end)
-
-		ScriptsTab:NewButton("Cop v2", "Your average cop v2.", function()
-			loadstring(game:HttpGet("https://pastefy.app/6YIGN5J0/raw"))()
-		end)
-
-		ScriptsTab:NewButton("Sledgehammer", "Have  fun sledging people haha you know? no ok.", function()
-			loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/bc7a020c542be0b7f528a5d8fda5ad52/raw/0db8993dc638613bd91b10fdbceb5c2d0754711e/SledgeHammer.lua"))()
-		end)
-
 		ScriptsTab:NewButton("Lost Hope", "Dragon Scythe thing and its cool", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3pLoUX1"))()
 		end)
 
-		ScriptsTab:NewButton("Vereus", "Yes a flying monster i know.", function()
-			loadstring(game:HttpGet("https://pastefy.app/PN2tKnnh/raw"))()
-		end)
-
 		ScriptsTab:NewButton("Server Admin", "A cool being admin.", function()
 			loadstring(game:HttpGet("https://paste.c-net.org/SiliconSister"))()
-		end)
-
-		ScriptsTab:NewButton("Suicidegun", "I dont know what to name this.", function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/TQGaAivj"))()
 		end)
 
 		ScriptsTab:NewButton("The Assasian", "A shit ton of moves that are epic", function()
