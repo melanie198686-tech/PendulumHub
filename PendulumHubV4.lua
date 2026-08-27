@@ -79,6 +79,10 @@ do -- UI
 		ScriptsTab:NewButton("Krystal dance", "Yippieee dancing in da CLUB.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Krystal%20dance.lua"))()
 		end)
+
+		ScriptsTab:NewButton("Chips", "Hit people with chips yea.", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Krystal%20dance.lua"))()
+		end)
 		ScriptsTab:NewSearchBar()
 	end
 
