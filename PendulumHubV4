@@ -67,7 +67,6 @@ do -- UI
 		ScriptsTab:NewButton("FE Chill", "Just a chill dude.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/chill/refs/heads/main/Chill.lua"))()
 		end)
-
 		ScriptsTab:NewSearchBar()
 	end
 
