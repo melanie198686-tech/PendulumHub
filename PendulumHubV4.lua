@@ -80,6 +80,10 @@ do -- UI
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Krystal%20dance.lua"))()
 		end)
 
+		ScriptsTab:NewButton("Minigun", "BRRRRR RATATA yippie finally done", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Minigun.lua"))()
+		end)
+
 		ScriptsTab:NewButton("Darth Vadar", "FINALLY OMG dawg i worked on this so hard", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/darthvadar.lua"))()
 		end)
