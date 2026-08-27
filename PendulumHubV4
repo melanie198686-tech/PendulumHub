@@ -72,7 +72,7 @@ do -- UI
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Sexy%20staff%20girl.lua"))()
 		end)
 
-		ScriptsTab:NewButton("Killbot V2", "Just a chill dude.", function()
+		ScriptsTab:NewButton("Killbot V2", "DONT CLICK ANY KEYBINDS.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/killbotv2.lua"))()
 		end)
 		ScriptsTab:NewSearchBar()
