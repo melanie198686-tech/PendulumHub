@@ -55,52 +55,64 @@ do -- UI
 		end,true)
 	end
 	
-	do -- ScriptsTab Buttons
-		ScriptsTab:NewButton("FE Gale Fighter", "Yeah a fighter right its cool right?", function()
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/melanie198686-tech/Fighter/refs/heads/main/Fighter.lua"))()
-		end)
+do -- ScriptsTab Buttons
+	ScriptsTab:NewButton("FE Gale Fighter", "Yeah a fighter right its cool right?", function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/melanie198686-tech/Fighter/refs/heads/main/Fighter.lua"))()
+	end)
 
-		ScriptsTab:NewButton("FE Sonic", "The skid idk i hate sonic.", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/Sonic/refs/heads/main/Sonic.lua"))()
-		end)
-		
-		ScriptsTab:NewButton("FE Chill", "Just a chill dude.", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/chill/refs/heads/main/Chill.lua"))()
-		end)
+	ScriptsTab:NewButton("FE Sonic", "The skid idk i hate sonic.", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/Sonic/refs/heads/main/Sonic.lua"))()
+	end)
 
-		ScriptsTab:NewButton("FE VERITY", "Hey its me VERITY!", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Verity.lua"))()
-		end)
+	ScriptsTab:NewButton("FE Chill", "Just a chill dude.", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/chill/refs/heads/main/Chill.lua"))()
+	end)
 
-		ScriptsTab:NewButton("FE Suicide GUN", "Yes vijay made it :)", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/FE%20GUN.lua"))()
-		end)
+	ScriptsTab:NewButton("FE VERITY", "Hey its me VERITY!", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Verity.lua"))()
+	end)
 
-		ScriptsTab:NewButton("UNIVERSAL Sexy Staff Girl", "WITCHHHH.", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Sexy%20staff%20girl.lua"))()
-		end)
+	ScriptsTab:NewButton("FE Suicide GUN", "Yes vijay made it :)", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/FE%20GUN.lua"))()
+	end)
 
-		ScriptsTab:NewButton("UNIVERSAL Killbot V2", "DONT CLICK ANY KEYBINDS.", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/killbotv2.lua"))()
-		end)
+	ScriptsTab:NewButton("UNIVERSAL Sexy Staff Girl", "WITCHHHH.", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Sexy%20staff%20girl.lua"))()
+	end)
 
-		ScriptsTab:NewButton("UNIVERSAL Krystal dance", "Yippieee dancing in da CLUB.", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Krystal%20dance.lua"))()
-		end)
+	ScriptsTab:NewButton("UNIVERSAL Killbot V2", "DONT CLICK ANY KEYBINDS.", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/killbotv2.lua"))()
+	end)
 
-		ScriptsTab:NewButton("UNIVERSAL Minigun", "BRRRRR RATATA yippie finally done", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Minigun.lua"))()
-		end)
+	ScriptsTab:NewButton("UNIVERSAL Krystal dance", "Yippieee dancing in da CLUB.", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Krystal%20dance.lua"))()
+	end)
 
-		ScriptsTab:NewButton("UNIVERSAL Darth Vadar", "FINALLY OMG dawg i worked on this so hard", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/darthvadar.lua"))()
-		end)
+	ScriptsTab:NewButton("UNIVERSAL Minigun", "BRRRRR RATATA yippie finally done", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Minigun.lua"))()
+	end)
 
-		ScriptsTab:NewButton("UNIVERSAL Chips", "Hit people with chips yea.", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Chips.lua"))()
-		end)
-		ScriptsTab:NewSearchBar()
-	end
+	ScriptsTab:NewButton("UNIVERSAL Darth Vadar", "FINALLY OMG dawg i worked on this so hard", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/darthvadar.lua"))()
+	end)
+
+	ScriptsTab:NewButton("UNIVERSAL Chips", "Hit people with chips yea.", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Chips.lua"))()
+	end)
+
+	ScriptsTab:NewSearchBar()
+end
 
 	do -- make the stuff i send you here
 		OMGFESEX:NewButton('Bend over', 'girl sex', function()
