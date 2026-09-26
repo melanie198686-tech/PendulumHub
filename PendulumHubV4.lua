@@ -68,27 +68,27 @@ do -- UI
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/chill/refs/heads/main/Chill.lua"))()
 		end)
 
-		ScriptsTab:NewButton("Sexy Staff Girl", "WITCHHHH.", function()
+		ScriptsTab:NewButton("UNIVERSAL Sexy Staff Girl", "WITCHHHH.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Sexy%20staff%20girl.lua"))()
 		end)
 
-		ScriptsTab:NewButton("Killbot V2", "DONT CLICK ANY KEYBINDS.", function()
+		ScriptsTab:NewButton("UNIVERSAL Killbot V2", "DONT CLICK ANY KEYBINDS.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/killbotv2.lua"))()
 		end)
 
-		ScriptsTab:NewButton("Krystal dance", "Yippieee dancing in da CLUB.", function()
+		ScriptsTab:NewButton("UNIVERSAL Krystal dance", "Yippieee dancing in da CLUB.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Krystal%20dance.lua"))()
 		end)
 
-		ScriptsTab:NewButton("Minigun", "BRRRRR RATATA yippie finally done", function()
+		ScriptsTab:NewButton("UNIVERSAL Minigun", "BRRRRR RATATA yippie finally done", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Minigun.lua"))()
 		end)
 
-		ScriptsTab:NewButton("Darth Vadar", "FINALLY OMG dawg i worked on this so hard", function()
+		ScriptsTab:NewButton("UNIVERSAL Darth Vadar", "FINALLY OMG dawg i worked on this so hard", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/darthvadar.lua"))()
 		end)
 
-		ScriptsTab:NewButton("Chips", "Hit people with chips yea.", function()
+		ScriptsTab:NewButton("UNIVERSAL Chips", "Hit people with chips yea.", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Chips.lua"))()
 		end)
 		ScriptsTab:NewSearchBar()
