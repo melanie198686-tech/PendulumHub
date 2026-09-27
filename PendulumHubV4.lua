@@ -61,6 +61,11 @@ do -- ScriptsTab Buttons
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/melanie198686-tech/Fighter/refs/heads/main/Fighter.lua"))()
 	end)
 
+	ScriptsTab:NewButton("FE Rune", "A flying men", function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Rune.lua"))()
+	end)
+
 	ScriptsTab:NewButton("FE Sonic", "The skid idk i hate sonic.", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/PendulumHub/refs/heads/main/Notify.lua"))()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/melanie198686-tech/Sonic/refs/heads/main/Sonic.lua"))()
