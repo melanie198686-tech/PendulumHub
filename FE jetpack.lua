@@ -1,3 +1,15 @@
+local TextChatService = game:GetService("TextChatService")
+local GeneralChannel = TextChatService.TextChannels:WaitForChild("RBXGeneral")
+
+local function SendChatMessage(message)
+	GeneralChannel:SendAsync(message)
+	task.wait(1)
+end
+
+SendChatMessage("-gh 9560383533 4368717651")
+SendChatMessage("-pd")
+SendChatMessage("-net")
+
 function rmesh(a)
 if not (workspace[game.Players.LocalPlayer.Name][a].Handle:FindFirstChild('Mesh') or workspace[game.Players.LocalPlayer.Name][a].Handle:FindFirstChild('SpecialMesh')) then return end
 old=game.Players.LocalPlayer.Character
